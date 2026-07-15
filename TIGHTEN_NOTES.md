@@ -79,11 +79,11 @@ Compile result:
 - `GOAL.md` already used the required XML block structure.
 - Updated `GOAL.md` to reflect the existing GitHub remote and initial harness/spec snapshot.
 - Adjusted Git workflow language so future execution verifies existing history and commits implementation work on top of it.
-- Added a final GitHub accessibility check: the current private repository must be shared with judges or made public before final submission.
+- Added a final GitHub accessibility check: the `OPH5` remote has been created and pushed; it must be shared with judges or made public before final submission.
 
 Config check result:
 
-- Command: `python3 /Users/yugdong-yeon/.codex/skills/goal-forge/scripts/inspect_codex_config.py --project-path /Users/yugdong-yeon/Desktop/OPH3`
+- Command: `python3 /Users/yugdong-yeon/.codex/skills/goal-forge/scripts/inspect_codex_config.py --project-path /Users/yugdong-yeon/Desktop/OPH5`
 - Codex version: `codex-cli 0.144.1`.
 - Project trust: trusted.
 - Model: `gpt-5.5`.
@@ -97,4 +97,4 @@ Config check result:
 
 Remaining note:
 
-- The repository is currently private at `https://github.com/dongyeonyug/OPH3`. This is fine for continued work, but final submission must be judge-accessible.
+- The repository is currently private at `https://github.com/dongyeonyug/OPH5`. This is fine for continued work, but final submission must be judge-accessible.

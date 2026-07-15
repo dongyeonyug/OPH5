@@ -22,11 +22,11 @@ Read these files first if they exist:
 - `data/`
 
 Current repository baseline:
-- Project path: `/Users/yugdong-yeon/Desktop/OPH3`.
+- Project path: `/Users/yugdong-yeon/Desktop/OPH5`.
 - Branch: `main`.
-- Remote: `https://github.com/dongyeonyug/OPH3`.
-- The existing remote is currently private. For final submission, make the repository judge-accessible by sharing access or making it public, and record the chosen status in `README.md` and `QA.md`.
-- The initial harness/spec snapshot has already been committed and pushed. Continue with implementation commits rather than rewriting history.
+- Remote: `https://github.com/dongyeonyug/OPH5`.
+- The `OPH5` remote repository is currently private. For final submission, make the repository judge-accessible by sharing access or making it public, and record the chosen status in `README.md` and `QA.md`.
+- The initial committed harness/spec snapshot has been pushed to the `OPH5` remote. Continue with implementation commits rather than rewriting history.
 
 If starting from an empty directory, create a new repository for TripCanvas and scaffold a Next.js app. Prefer:
 - Next.js
@@ -298,7 +298,7 @@ Initial required knobs:
 - `deployment_mode`: `required_try_vercel_then_practical_fallback`
 - `intervention_policy`: `avoid_direct_code_edits_unless_blocked`
 - `presentation_priority`: `harness_story_first`
-- `time_budget_minutes`: `40`
+- `time_budget_minutes`: `50`
 - `stop_if_core_demo_passes`: `true`
 - `image_policy`: `browser_local_file_only_no_url_input_no_cloud_upload`
 - `notion_mode`: `editable_korean_presenter_outline`

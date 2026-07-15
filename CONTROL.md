@@ -19,7 +19,7 @@ secondary_priority: stable_live_demo
 scope_mode: mvp_only
 product_name: TripCanvas
 presentation_priority: harness_story_first
-time_budget_minutes: 40
+time_budget_minutes: 50
 stop_if_core_demo_passes: true
 
 ## Product Knobs

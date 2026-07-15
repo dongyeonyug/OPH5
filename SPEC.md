@@ -4,7 +4,7 @@
 
 TripCanvas is a Ralphthon-oriented MVP that demonstrates Codex autonomous-loop design through a small but polished travel memory web app.
 
-The app is intentionally modest: a world map lets users select a country, then view or add travel memories as Pinterest-style photo cards inside a contextual detail surface. On desktop that surface should appear as a right-side panel; on mobile it should appear as a bottom panel or sheet. The app should not become one long page where the map, board, and form are all stacked as full-width sections. The real competition strategy is not to maximize feature count, but to prove that Codex can autonomously plan, implement, verify, document, and prepare a 3-minute presentation within a 30-40 minute loop.
+The app is intentionally modest: a world map lets users select a country, then view or add travel memories as Pinterest-style photo cards inside a contextual detail surface. On desktop that surface should appear as a right-side panel; on mobile it should appear as a bottom panel or sheet. The app should not become one long page where the map, board, and form are all stacked as full-width sections. The real competition strategy is not to maximize feature count, but to prove that Codex can autonomously plan, implement, verify, document, and prepare a 3-minute presentation within a 45-50 minute loop.
 
 Primary presentation frame:
 
@@ -31,11 +31,11 @@ Therefore, the project should optimize for these outputs:
 
 Current repository baseline as of the Tighten pass:
 
-- Local project path: `/Users/yugdong-yeon/Desktop/OPH3`.
+- Local project path: `/Users/yugdong-yeon/Desktop/OPH5`.
 - Git is already initialized on branch `main`.
-- GitHub remote exists at `https://github.com/dongyeonyug/OPH3`.
-- The remote repository is currently private. This satisfies the working-repo setup only if the final submitter can share it with judges or make it public before submission; the final package still needs a judge-accessible GitHub repository.
-- The harness/spec snapshot has already been committed and pushed before app implementation.
+- GitHub remote exists at `https://github.com/dongyeonyug/OPH5`.
+- The `OPH5` remote repository is currently private. Before final submission, make it judge-accessible by sharing access or making it public.
+- The initial committed harness/spec snapshot has been pushed to the `OPH5` remote before app implementation.
 - No final app implementation exists yet. The next `/goal` run should continue from this repository state, not assume an empty folder unless the files have been removed.
 
 ## 3. Product Concept
@@ -240,7 +240,7 @@ Recommended `CONTROL.md` knobs:
 - `deployment_mode`: `required_try_vercel_then_practical_fallback`.
 - `intervention_policy`: `avoid_direct_code_edits_unless_blocked`.
 - `presentation_priority`: `harness_story_first`.
-- `time_budget_minutes`: `40`.
+- `time_budget_minutes`: `50`.
 - `stop_if_core_demo_passes`: `true`.
 - `layout_mode`: `map_first_responsive_detail_panel_desktop_right_mobile_bottom`.
 

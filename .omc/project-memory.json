@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "lastScanned": 1784100545419,
-  "projectRoot": "/Users/yugdong-yeon/Desktop/OPH3",
+  "projectRoot": "/Users/yugdong-yeon/Desktop/OPH5",
   "techStack": {
     "languages": [],
     "frameworks": [],
@@ -9,7 +9,7 @@
     "runtime": null
   },
   "build": {
-    "buildCommand": null,
+    "buildCommand": "npm install && npm run build:pages",
     "testCommand": null,
     "lintCommand": null,
     "devCommand": null,
@@ -27,7 +27,14 @@
     "mainDirectories": [],
     "gitBranches": null
   },
-  "customNotes": [],
+  "customNotes": [
+    {
+      "timestamp": 1784109018645,
+      "source": "learned",
+      "category": "runtime",
+      "content": "Node.js 24.14.0"
+    }
+  ],
   "directoryMap": {},
   "hotPaths": [],
   "userDirectives": []

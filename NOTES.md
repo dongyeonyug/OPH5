@@ -18,4 +18,11 @@
 
 ## Chronological Notes
 
-- TBD Execution notes begin when the `/goal` run starts.
+- 2026-07-15 18:30 KST: Read the full pasted `/goal`, `SPEC.md`, `GOAL.md`, `CONTROL.md`, `PLAN.md`, `ATTEMPTS.md`, `NOTES.md`, `QA.md`, and `.omc/skills/taste-skill/SKILL.md`.
+- 2026-07-15 18:30 KST: Design read is a Korean-first travel memory product for a live demo, Pinterest-inspired and image-first, restrained consumer app, with dials `DESIGN_VARIANCE 6`, `MOTION_INTENSITY 4`, `VISUAL_DENSITY 5`.
+- 2026-07-15 18:30 KST: Initially chose Next.js 14 + React 18 because `react-simple-maps@3.0.0` peers against React 16-18.
+- 2026-07-15 18:33 KST: Changed course after audit: `react-simple-maps` pulled vulnerable d3 dependencies and Next 14 had active advisories. Moved to latest Next/React and rendered the real TopoJSON map directly with `d3-geo` + `topojson-client`.
+- 2026-07-15 18:33 KST: Core app scaffold uses real TopoJSON map data, seeded image cards from stable Picsum seed URLs, local file-only photo input, and IndexedDB with localStorage fallback.
+- 2026-07-15 18:40 KST: Local Playwright QA passed for map selection, empty state, validation, local file save, refresh persistence, lightbox, and mobile bottom sheet.
+- 2026-07-15 18:52 KST: Vercel preferred deployment failed because the saved Vercel token is invalid. Used GitHub Pages as the practical fallback required by `GOAL.md`.
+- 2026-07-15 18:59 KST: GitHub repository was made public for judge access. Production URL is `https://dongyeonyug.github.io/OPH5/`.
