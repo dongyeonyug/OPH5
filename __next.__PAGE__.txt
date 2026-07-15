@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[22096,["/OPH5/_next/static/chunks/1d4h-sglyo8ft.js","/OPH5/_next/static/chunks/14mumt5_n0xhi.js","/OPH5/_next/static/chunks/33yq67yrzf8p8.js"],"TripCanvasApp"]
+3:I[97367,["/OPH5/_next/static/chunks/1d4h-sglyo8ft.js","/OPH5/_next/static/chunks/14mumt5_n0xhi.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{}],[["$","script","script-0",{"src":"/OPH5/_next/static/chunks/33yq67yrzf8p8.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"fACoSgN_GLpjoMv_TVk6N"}
+5:null
