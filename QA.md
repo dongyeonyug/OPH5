@@ -39,7 +39,7 @@
 
 | Check | Status | Evidence |
 | --- | --- | --- |
-| GitHub repository pushed | Partial | `gh-pages` deployment branch pushed. Main source push pending final commit. Repository is public at `https://github.com/dongyeonyug/OPH5`. |
+| GitHub repository pushed | Pass | Main source pushed at commit `9842835`; `gh-pages` deployment branch pushed. Repository is public at `https://github.com/dongyeonyug/OPH5`. |
 | Production deployment URL opens | Pass | `curl -I -L https://dongyeonyug.github.io/OPH5/` returned HTTP 200. |
 | Production URL supports core demo | Pass | Production Playwright QA confirmed map markers 5, country paths 5, France selection, local image save, refresh persistence, lightbox, mobile bottom sheet. |
 | Editable Korean Notion outline exists | Pass | Created Notion page: `https://app.notion.com/p/39e08486666c81cda4a5e894f7c486a5`. |
@@ -47,4 +47,4 @@
 
 ## Final Verdict
 
-Not complete until final main source push and final done_when audit are complete.
+Ready for final done_when audit.
